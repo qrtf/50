@@ -9,7 +9,6 @@
 
 
 
-
 @font-face {
     font-family: 'akzidenz-grotesk_bqbold';
     src: url('akzidenzgrotesk-bold-webfont.woff2') format('woff2'),
@@ -85,11 +84,16 @@ h3{
     footer{
         background-color: transparent;
         display: flex;
-        justify-content: space-between;
+        justify-content:space-around;
         align-items: flex-end;
         height: 15vh;
         animation: p-load 800ms ease-out 2000ms;
         animation-fill-mode: forwards;
+    }
+    footer img{
+        width: auto;
+        height: 30px;
+        
     }
     
     .num{
